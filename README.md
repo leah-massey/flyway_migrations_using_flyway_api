@@ -4,7 +4,7 @@ This repo is an exercise in database migrations using Flyway.
 
 The aim of the project is to get a better understanding of how Flyway works and how I can use it in real-world projects.
 
-In this first iteration, I'm looking at building, populating and updating database tables using the gradle plugin. 
+In this first iteration, I'm looking at building, populating and updating database tables using the Flyway gradle plugin. 
 
 To download and play with these usages for yourself simply clone this repo and redirect the following line of the Flyway extension in ``build.gradle.kts``:
 ```url = "jdbc:postgresql://localhost:5432/flyway_test"```
