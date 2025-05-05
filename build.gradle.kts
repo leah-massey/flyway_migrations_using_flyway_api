@@ -8,4 +8,5 @@ repositories {
 
 dependencies {
     implementation("org.postgresql:postgresql:42.4.5")
+    implementation("org.flywaydb:flyway-core:11.3.4")
 }
