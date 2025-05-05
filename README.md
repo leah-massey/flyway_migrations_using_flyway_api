@@ -9,3 +9,6 @@ In this first iteration, I'm looking at building, populating and updating databa
 To download and play with these usages for yourself simply clone this repo and redirect the following line in the Flyway extension
 ```url = "jdbc:postgresql://localhost:5432/flyway_test"```
 so that it points to a local db on your machine. 
+
+To run the migration: 
+``./gradlew flywayMigrate -i ``
